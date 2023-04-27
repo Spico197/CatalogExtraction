@@ -92,11 +92,6 @@ $ bash examples/doc_tree_construction/train/run.sh
 $ python examples/doc_tree_construction/inference/run_simple.py
 ```
 
-## ☁ Demonstration Deployment
-
-1. change port, device, task directories and other settings in `demo_config.yaml`
-2. run `python -u demo.py -c demo_config.yaml` to start
-
 ## 📃 Documents
 
 Check `docs/` for more detailed explanations.
