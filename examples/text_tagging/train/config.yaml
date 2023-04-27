@@ -1,0 +1,41 @@
+# task
+task_name: text_tagging_FinAnn
+model_type: LSTMCRFModel
+# data preprocessing
+num_sents: 50
+max_seq_len: 100
+emb_size: 768
+
+# filepaths
+data_dir: data/text_tagging/FinAnn_testBidAnn
+plm_dir: /data4/tzhu/bert_pretrained_models/hfl_rbt3
+train_filepath: ${data_dir}/train.json
+dev_filepath: ${data_dir}/dev.json
+test_filepath: ${data_dir}/test.json
+output_dir: outputs
+task_dir: ${output_dir}/${task_name}
+
+# training
+skip_train: false
+skip_final_eval: false
+final_eval_model_filepath: ${task_dir}/ckpt/${model_type}.best.pth
+skip_predict_example: true
+debug_mode: false
+
+device: 1
+random_seed: 1227
+num_epochs: 10
+num_early_stop: 3
+train_batch_size: 8
+eval_batch_size: 8
+learning_rate: !!float 1e-5
+
+save_best_ckpt: true
+
+# logging
+only_master_logging: true
+
+# model
+dropout: 0.5
+hidden_size: 300
+num_lstm_layers: 2

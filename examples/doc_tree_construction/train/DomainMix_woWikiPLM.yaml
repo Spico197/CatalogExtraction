@@ -1,0 +1,16 @@
+# task
+name: transducer_woWikiPLM_hierSelect_${data_type}_${random_seed}
+
+# filepaths
+data_type: DomainMix
+pretrained_model_path: paper_outputs/transducer_wiki_pretrain/ckpt/TransducerWithBert.best.pth
+
+# training
+device: cuda:0
+skip_train: false
+
+# hparams
+random_seed: 127
+train_docs: -1  # -1 means use all the training set
+load_pretrained_model: false
+with_constraint: true

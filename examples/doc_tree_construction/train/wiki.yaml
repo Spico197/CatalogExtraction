@@ -1,0 +1,18 @@
+# task
+name: transducer_wiki_pretrain_again
+
+# data preprocessing
+use_stream_data_iterator: true
+train_docs: -1
+
+# filepaths
+data_type: Wiki
+
+# training
+skip_train: false
+device: cuda:3
+num_epochs: 1
+learning_rate: 2e-5
+debug_mode: false
+warmup_proportion: 0.1
+with_constraint: true

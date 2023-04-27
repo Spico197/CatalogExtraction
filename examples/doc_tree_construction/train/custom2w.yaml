@@ -1,0 +1,15 @@
+# task
+name: transducer_plm2w_${train_docs}_${data_type}_${random_seed}
+
+# filepaths
+data_type: null
+plm_dir: data/wiki_plm_2w
+
+# training
+device: cuda:2
+skip_train: false
+
+# hparams
+random_seed: 127
+train_docs: -1  # -1 means use all the training set
+with_constraint: true

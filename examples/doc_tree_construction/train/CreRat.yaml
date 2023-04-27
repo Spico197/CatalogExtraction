@@ -1,0 +1,14 @@
+# task
+name: transducer_${train_docs}_${data_type}_${random_seed}
+
+# filepaths
+data_type: CreRat
+
+# training
+device: cuda:0
+skip_train: false
+
+# hparams
+random_seed: 127
+train_docs: -1  # -1 means use all the training set
+with_constraint: true

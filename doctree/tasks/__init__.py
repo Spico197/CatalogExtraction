@@ -1,0 +1,3 @@
+from .transducer_task import TransducerDocTreeConstructionTask
+from .text_classification import TextClassificationTask
+from .text_concat_task import TextConcatTask
