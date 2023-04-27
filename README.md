@@ -2,8 +2,8 @@
 
 Rebuild document tree structures from plain texts.
 
-📂 Files are available at [releases/tag/data-v1](https://github.com/Spico197/CatalogExtraction/releases/tag/data-v1).
-📦 Model weights and logs are available at [releases/tag/model-v1](https://github.com/Spico197/CatalogExtraction/releases/tag/model-v1).
+- 📂 Files are available at [releases/tag/data-v1](https://github.com/Spico197/CatalogExtraction/releases/tag/data-v1).
+- 📦 Model weights and logs are available at [releases/tag/model-v1](https://github.com/Spico197/CatalogExtraction/releases/tag/model-v1).
 
 ## ✈️ Abilities
 
