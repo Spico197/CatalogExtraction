@@ -1,8 +1,12 @@
 # 🌳 CED: Catalog Extraction from Documents
 
-Rebuild document tree structures from plain texts.
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ced-catalog-extraction-from-documents/catalog-extraction-on-chcatext)](https://paperswithcode.com/sota/catalog-extraction-on-chcatext?p=ced-catalog-extraction-from-documents)
+[![arXiv](https://img.shields.io/badge/arXiv-2304.14662-b31b1b.svg)](https://arxiv.org/abs/2304.14662)
 
-- 📂 Files are available at [releases/tag/data-v1](https://github.com/Spico197/CatalogExtraction/releases/tag/data-v1).
+Rebuild document catalog tree structures from plain texts.
+
+- 📃 This is the official implementation of the ICDAR'23 paper: [CED: Catalog Extraction from Documents](https://arxiv.org/abs/2304.14662)
+- 📂 Data files are available at [releases/tag/data-v1](https://github.com/Spico197/CatalogExtraction/releases/tag/data-v1).
 - 📦 Model weights and logs are available at [releases/tag/model-v1](https://github.com/Spico197/CatalogExtraction/releases/tag/model-v1).
 
 ## ✈️ Abilities
@@ -92,6 +96,19 @@ $ bash examples/doc_tree_construction/train/run.sh
 $ python examples/doc_tree_construction/inference/run_simple.py
 ```
 
-## 📃 Documents
+## 📃 Documentations
 
 Check `docs/` for more detailed explanations.
+
+## 📜 Citation
+
+If you find this paper or repo useful, please cite our paper:
+
+```bibtex
+@article{zhu2023ced,
+  title={CED: Catalog Extraction from Documents},
+  author={Zhu, Tong and Zhang, Guoliang and Li, Zechang and Yu, Zijian and Ren, Junfei and Wu, Mengsong and Wang, Zhefeng and Huai, Baoxing and Chao, Pingfu and Chen, Wenliang},
+  journal={arXiv preprint arXiv:2304.14662},
+  year={2023}
+}
+```
