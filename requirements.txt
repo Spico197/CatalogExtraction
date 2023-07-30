@@ -7,3 +7,4 @@ tqdm>=4.61.1
 pytorch-rex==0.0.10
 lxml>=4.6.3
 transformers>=4.12.5
+jieba>=0.42.1

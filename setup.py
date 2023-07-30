@@ -36,7 +36,7 @@ setuptools.setup(
     ),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent",
     ],
     python_requires=">=3.7",
@@ -46,6 +46,7 @@ setuptools.setup(
         "pytorch-rex==0.0.15",
         "lxml>=4.6.3",
         "transformers>=4.12.5",
+        "jieba>=0.42.1",
     ],
     extras_require=extras_require_packages,
 )

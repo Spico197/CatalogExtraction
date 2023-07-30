@@ -6,7 +6,7 @@
 Rebuild document catalog tree structures from plain texts.
 
 - 📃 This is the official implementation of the ICDAR'23 paper: [CED: Catalog Extraction from Documents](https://arxiv.org/abs/2304.14662)
-- 📂 Data files are available at [releases/tag/data-v1](https://github.com/Spico197/CatalogExtraction/releases/tag/data-v1).
+- 📂 Data files are available at [releases/tag/data-v1](https://github.com/Spico197/CatalogExtraction/releases/tag/data-v1) and [releases/tag/data-v1-patch](https://github.com/Spico197/CatalogExtraction/releases/tag/data-v1-patch).
 - 📦 Model weights and logs are available at [releases/tag/model-v1](https://github.com/Spico197/CatalogExtraction/releases/tag/model-v1).
 
 ## ✈️ Abilities
